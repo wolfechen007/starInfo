@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>明星资料卡</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/music.js" ></script>
+	</head>
+	<body>
+		<div id="box">
+			<!--figure用作文档中插图的图像-->
+			<figure class="view1">
+				<img src="img/1.png" alt="这是1.png"/>
+				<figcaption>
+					<h2>Billboard三首排行第一</h2>
+					<p class="pp p1">Shake It Off</p>
+					<p class="pp p2">Black Space</p>
+					<p class="pp p3">Bad Blood</p>
+				</figcaption>
+			</figure>
+			<figure class="view2">
+				<img src="img/2.png" alt="这是2.png"/>
+				<figcaption>
+					<h2>TayLor Swift</h2>
+					<p class="info1">Birthday:1989-12-13</p>
+					<p class="info2">Height:180cm</p>
+					<p class="info3">Weight:56kg</p>
+				</figcaption>
+			</figure>
+			<figure class="view3">
+				<img src="img/3.png" alt="这是3.png"/><br />
+				<figcaption>
+				<h2>Back To December</h2>
+				<p>HTML 超文本标记语言的开发到1999年推出HTML4就停止了。万维网联盟（W3C）把重点转向将 HTML 的底层语法从标准通用标记语言（SGML）改为可扩展标记语言（XML），以及可缩放向量图型（SVG）、XForms 和 MathML 这些全新的标记语言。</p>
+			</figcaption>
+			</figure>
+			<figure class="view4">
+				<img src="img/4.png" alt="这是4.png"/>
+				<figcaption>
+				<h2>1989</h2>
+				<p>TayLor Swift《1989》</p>
+				<div></div>
+				</figcaption>
+			</figure>
+			<figure class="view5">
+				<img src="img/5.png" alt="这是5.png"/>
+				<figcaption>
+					<h2>Back To December</h2>
+				<p>HTML 超文本标记语言的开发到1999年推出HTML4就停止了。万维网联盟（W3C）把重点转向将 HTML 的底层语法从标准通用标记语言（SGML）改为可扩展标记语言（XML），以及可缩放向量图型（SVG）、XForms 和 MathML 这些全新的标记语言。</p>
+		
+					<div></div>
+				</figcaption>
+			</figure>
+			<figure class="view6">
+				<img src="img/6.png" alt="这是6.png"/>
+				<figcaption>
+					<h2> Out of the Woods</h2>
+				</figcaption>
+			</figure>
+			<figure class="view7">
+				<img src="img/7.png" alt="这是7.png"/>
+			</figure>
+			<figure class="view8">
+				<img src="img/8.png" alt="这是8.png"/>
+				<figcaption>
+					<h2>Taylor Swift</h2>
+					<div class="w"></div>
+					<div class="h"></div>
+				</figcaption>
+			</figure>
+			<figure class="view9">
+				<img src="img/9.png" alt="这是9.png"/>
+			</figure>
+			
+		</div>
+		<!--添加音乐图标-->
+		<img src="img/musicBtn.png" alt="播放图标" class="musicBtn" onclick="playPause(this)"/>
+		<img src="img/musicBtnOff.png" alt="播放图标" class="musicBtn" onclick="playPause(this)" style="display: none;"
+		/>
+		<audio src="mp3/Taylor Swift - We Are Never Ever Getting Back Together.mp3" autoplay="autoplay" id="musicPlayer"> </audio>
+		
+	</body>
+</html>
